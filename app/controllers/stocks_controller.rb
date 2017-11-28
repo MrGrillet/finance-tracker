@@ -8,13 +8,11 @@ class StocksController < ApplicationController
 
 
 		if @stock
-			#render json: @stock 
-			render partial: 'lookup'
+			render json: @stock 
+			#render partial: 'lookup'
 		else
 			render status: :not_found, nothing: true
 		end
 	end
-
 	private
-	
 end
