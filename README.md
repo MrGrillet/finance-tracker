@@ -1,6 +1,6 @@
 # README
 
-This app is going to be a social finance app.
+This app is going to be a social finance app. It's now backed up on Github.
 
 Things you may want to cover:
 
